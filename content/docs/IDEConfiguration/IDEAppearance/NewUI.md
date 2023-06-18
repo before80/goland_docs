@@ -198,7 +198,7 @@ Tabs for switching between the Threads & Variables view and Console now also app
 
 {{< tab header="Compact Mode off" >}}
 
-![Compact mode](NewUI_img/go_new_ui_compact_mode-1687062885307-3.png)
+![Compact mode turned off](NewUI_img/go_new_ui_compact_mode_off.png)
 
 {{< /tab >}}
 
