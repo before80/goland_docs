@@ -14,4 +14,4 @@ draft = false
 
 https://www.jetbrains.com/help/go/getting-started.html
 
-Check out the most useful and popular topics to get you started with GoLand.
+​	请查看以下最有用和流行的主题，帮助您开始使用 GoLand：
