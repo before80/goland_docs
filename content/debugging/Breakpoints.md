@@ -194,6 +194,4 @@ Last modified: 03 May 2023
 
 ### 分组断点 
 
-You can organize breakpoints into groups, for example, if you need to mark out breakpoints for a specific problem. To do this, in the Breakpoints dialog Ctrl+Shift+F8, select a breakpoint you want to place in a group and select Move to group from the menu.
-
 ​	您可以将断点分组，例如，如果您需要为特定问题标记出断点。要做到这一点，在断点对话框（Ctrl+Shift+F8）中选择要放置在分组中的断点，然后从菜单中选择Move to group。
