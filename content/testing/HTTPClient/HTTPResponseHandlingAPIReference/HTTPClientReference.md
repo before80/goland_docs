@@ -16,21 +16,17 @@ Last modified: 21 April 2023
 
 最近修改日期：2023年4月21日
 
-The `client` object holds the HTTP Client session metadata, such as the list of global variables. The HTTP Client session is started when GoLand starts, and ends when GoLand is closed. Values are not preserved between GoLand restarts.
-
 ​	`client` 对象保存了 HTTP 客户端会话的元数据，例如全局变量列表。HTTP 客户端会话在 GoLand 启动时开始，关闭 GoLand 时结束。在 GoLand 重新启动之间不会保留任何值。
-
-The `client` provides access to the [global](https://www.jetbrains.com/help/go/http-client-reference.html#global-variables-storage-reference) nested object that serves as a variable storage.
 
 ​	`client` 提供对 [global](https://www.jetbrains.com/help/go/http-client-reference.html#global-variables-storage-reference) 嵌套对象的访问，用作变量存储。
 
-## 属性 Properties﻿
+## 属性
 
 | 属性     | 描述                                                         |
 | -------- | ------------------------------------------------------------ |
 | `global` | [全局变量存储](https://www.jetbrains.com/help/go/http-client-reference.html#global-variables-storage-reference)，用于设置、检索或删除变量。一旦为全局变量分配了值（`client.global.set(VariableName, VariableValue)`），您可以在后续的 HTTP 请求中通过 `{{VariableName}}` 访问它，或者在响应处理脚本和预请求脚本中使用 `client.global.get("VariableName")`。有关更详细的示例，请参阅[使用全局变量](https://www.jetbrains.com/help/go/http-response-handling-examples.html#script-var-example)。 |
 
-## 方法 Methods﻿
+## 方法
 
 | 方法     | 参数                                     | 描述                                                         |
 | -------- | ---------------------------------------- | ------------------------------------------------------------ |
@@ -39,9 +35,7 @@ The `client` provides access to the [global](https://www.jetbrains.com/help/go/h
 | `log`    | `text`（字符串）                         | 将 `text` 打印到响应处理或测试的标准输出，然后换行。         |
 | `exit`   | —                                        | 终止响应处理脚本的执行。                                     |
 
-## 全局变量存储 Global variables storage﻿
-
-The `global` object serves as a variable storage and is used for setting, retrieving, or removing variables. These variables are global because, once set, they can be accessed from any HTTP request.
+## 全局变量存储﻿
 
 ​	`global` 对象用作变量存储，用于设置、检索或删除变量。这些变量是全局的，因为一旦设置，它们可以从任何 HTTP 请求中访问。
 

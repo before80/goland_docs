@@ -16,13 +16,9 @@ Last modified: 06 March 2023
 
 上次修改日期：2023年3月6日
 
-This page lists [run/debug configuration](https://www.jetbrains.com/help/go/run-debug-configuration.html) templates available in GoLand. For detailed instructions on how to use them in your project, refer to the related how-to pages.
-
 ​	本页面列出了GoLand中可用的[运行/调试配置](https://www.jetbrains.com/help/go/run-debug-configuration.html)模板。关于如何在您的项目中使用它们的详细说明，请参考相关的操作指南。
 
 
-> Whether a run/debug configuration is available in your IDE may depend on which [plugins](https://www.jetbrains.com/help/go/managing-plugins.html) are installed and enabled.
->
 > ​	某个运行/调试配置是否在您的IDE中可用可能取决于已安装和启用的[插件](https://www.jetbrains.com/help/go/managing-plugins.html)。
 
 | 名称                                                         | 用途                                                         | 必需的插件                       |

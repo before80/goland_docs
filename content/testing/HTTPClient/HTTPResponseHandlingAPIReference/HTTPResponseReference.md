@@ -16,9 +16,7 @@ Last modified: 21 April 2023
 
 最近修改日期：2023年4月21日
 
-## 响应属性 Response properties﻿
-
-The `response` object holds the information about a received HTTP Response (response content, headers, status, and so on) and provides access to the [headers](https://www.jetbrains.com/help/go/http-response-reference.html#headers-reference) and [contentType](https://www.jetbrains.com/help/go/http-response-reference.html#content-type-reference) nested objects.
+## 响应属性
 
 ​	`response` 对象保存了接收到的 HTTP 响应的信息（响应内容、头部、状态等），并提供对 [headers](https://www.jetbrains.com/help/go/http-response-reference.html#headers-reference) 和 [contentType](https://www.jetbrains.com/help/go/http-response-reference.html#content-type-reference) 嵌套对象的访问。
 
@@ -29,26 +27,22 @@ The `response` object holds the information about a received HTTP Response (resp
 | `status`（整数）                                             | 响应状态，例如 200 或 404。                                  |
 | `contentType`（[ContentType](https://www.jetbrains.com/help/go/http-response-reference.html#content-type-reference)） | [contentType 对象](https://www.jetbrains.com/help/go/http-response-reference.html#content-type-reference)，保存了 Content-Type 响应头部值的数据。 |
 
-## Headers 对象 Headers object﻿
-
-The `ResponseHeaders` object is used for retrieving the data about response headers' values.
+## Headers 对象
 
 ​	`ResponseHeaders` 对象用于获取有关响应头部值的数据。
 
-### 方法 Methods﻿
+### 方法﻿
 
 | 方法       | 参数                   | 描述                                                         |
 | ---------- | ---------------------- | ------------------------------------------------------------ |
 | `valueOf`  | `headerName`（字符串） | 获取 `headerName` 响应头部的第一个值，如果 `headerName` 响应头部不存在，则返回 `null`。 |
 | `valuesOf` | `headerName`（字符串） | 获取包含 `headerName` 响应头部所有值的数组。如果 `headerName` 响应头部不存在，则返回空数组。 |
 
-## ContentType 对象 ContentType object﻿
-
-The `ContentType` data object contains information from the Content-Type response header.
+## ContentType 对象﻿
 
 ​	`ContentType` 数据对象包含了来自 Content-Type 响应头部的信息。
 
-### 属性 Properties﻿
+### 属性
 
 | 属性                 | 描述                                                         |
 | -------------------- | ------------------------------------------------------------ |
@@ -57,20 +51,16 @@ The `ContentType` data object contains information from the Content-Type respons
 
 ## LineStreamResponse 对象
 
-The `LineStreamResponse` interface is used to process a response as a stream of lines. It implements a `onEachLine(line, unsubscribe)` method, which loops through each line in the stream, one after the other. The method takes two arguments:
-
 ​	`LineStreamResponse` 接口用于将响应作为一系列行进行处理。它实现了一个 `onEachLine(line, unsubscribe)` 方法，该方法依次循环遍历流中的每一行。该方法接受两个参数：
 
-### Arguments﻿ 参数
+### 实参
 
-| 参数                         | 描述                                 |
+| 实参                         | 描述                                 |
 | ---------------------------- | ------------------------------------ |
 | `line`（字符串或 JSON 对象） | 作为流的一部分接收到的行（事件）。   |
 | `unsubscribe`                | 用于终止 `onEachLine` 块执行的函数。 |
 
-## 请求属性 Request properties﻿
-
-The `request` object holds the information about the HTTP request and can be used both in pre-request scripts and in response handler scripts.
+## 请求属性
 
 ​	`request` 对象保存了关于 HTTP 请求的信息，可以在预请求脚本和响应处理脚本中使用。
 

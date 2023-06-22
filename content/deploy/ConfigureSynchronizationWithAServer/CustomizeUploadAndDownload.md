@@ -18,31 +18,19 @@ Last modified: 11 January 2023
 
 File | Settings | Build, Execution, Deployment | Deployment for Windows and Linux
 
-文件 | 设置 | 构建、执行、部署 | 适用于Windows和Linux的部署设置
-
 GoLand | Settings | Build, Execution, Deployment | Deployment for macOS
-
-GoLand | 设置 | 构建、执行、部署 | 适用于macOS的部署设置
-
-Besides the mandatory settings that ensure successful upload and download in various project – server setups, you can configure additional options to customize the interaction with the server. Most of these options apply to all server access configuration types. For FTP, FTPS, and SFTP server configurations, you can specify additional protocol-specific options.
 
 ​	除了确保在各种项目-服务器设置中成功上传和下载的必要设置外，您还可以配置其他选项来自定义与服务器的交互。其中大部分选项适用于所有服务器访问配置类型。对于FTP、FTPS和SFTP服务器配置，您可以指定其他特定于协议的选项。
 
 ![Deployment options](CustomizeUploadAndDownload_img/go_deployment_options.png)
 
-### 设置常见的上传和下载选项 Set common upload and download options﻿
+### 设置常见的上传和下载选项
 
-1. Press Ctrl+Alt+S to open the IDE settings and select Build, Execution, Deployment | Deployment | Options.
+1. 按下Ctrl+Alt+S打开IDE设置，选择Build, Execution, Deployment | Deployment | Options。
 
-2. 按下Ctrl+Alt+S打开IDE设置，选择构建、执行、部署 | 部署 | 选项。
+   或者，从主菜单中选择Tools | Deployment | Options...。
 
-   Alternatively, from the main menu, select Tools | Deployment | Options....
-
-   或者，从主菜单中选择工具 | 部署 | 选项....
-
-3. Specify additional settings:
-
-4. 指定额外的设置：
+2. 指定额外的设置：
 
    - To skip specific files or entire folders during upload and download, in the Exclude items by name field, specify the patterns that define the names of these files and folders.
 
@@ -71,6 +59,7 @@ Besides the mandatory settings that ensure successful upload and download in var
    - Specify the details of the upload and download procedure by selecting or clearing the corresponding checkboxes.
 
    - 通过选中或取消选中相应的复选框来指定上传和下载过程的详细信息。
+
 
 
    ![Configuring upload and download settings](CustomizeUploadAndDownload_img/go_configuring_upload_download_options.png)

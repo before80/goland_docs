@@ -16,15 +16,11 @@ Last modified: 21 December 2022
 
 最近修改日期：2022年12月21日
 
-The `crypto` object provides access to HTTP Client Crypto API, which lets you use cryptographic hash functions and HMAC to generate HTTP signatures. You can then use these signatures as variables in pre-request scripts to sign your HTTP requests.
-
 ​	`crypto` 对象提供了对 HTTP 客户端加密 API 的访问，允许您使用加密哈希函数和 HMAC 生成 HTTP 签名。然后，您可以在预请求脚本中使用这些签名作为变量来对您的 HTTP 请求进行签名。
-
-The `crypto` accepts a method that can be either one of the hash functions (`sha1`, `sha256`, `sha512`, `md5`), or [hmac](https://www.jetbrains.com/help/go/http-client-crypto-api-reference.html#hmac_methods).
 
 ​	`crypto` 接受一个方法，可以是哈希函数之一（`sha1`、`sha256`、`sha512`、`md5`），或者是 [hmac](https://www.jetbrains.com/help/go/http-client-crypto-api-reference.html#hmac_methods)。
 
-## 哈希方法 Hash methods﻿
+## 哈希方法
 
 | 方法                  | 参数                                                         | 描述                               |
 | --------------------- | ------------------------------------------------------------ | ---------------------------------- |
@@ -34,9 +30,7 @@ The `crypto` accepts a method that can be either one of the hash functions (`sha
 | `digest().toHex()`    | —                                                            | 生成哈希并将其转换为十六进制格式。 |
 | `digest().toBase64()` | `urlSafe`（布尔值）：如果要使用 URL 安全的 Base64 变体，请输入 `true` | 生成哈希并将其转换为 Base64 格式。 |
 
-## HMAC 方法 HMAC methods﻿
-
-The `crypto.hmac` object enables you to use HMAC to sign HTTP requests. It has access to all [hash methods](https://www.jetbrains.com/help/go/http-client-crypto-api-reference.html#hash_methods) to generate hashes but also has methods to get the secret part of the token.
+## HMAC 方法
 
 ​	`crypto.hmac` 对象使您能够使用 HMAC 对 HTTP 请求进行签名。它可以访问所有的[哈希方法](https://www.jetbrains.com/help/go/http-client-crypto-api-reference.html#hash_methods)来生成哈希，还有一些方法可以获取令牌的密钥部分。
 
