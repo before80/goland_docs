@@ -1,5 +1,5 @@
 +++
-title = "Notifications"
+title = "增加IDE的内存堆"
 weight = 30
 date = 2023-06-17T19:06:58+08:00
 type = "docs"

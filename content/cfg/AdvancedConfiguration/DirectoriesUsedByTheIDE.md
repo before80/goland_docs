@@ -1,5 +1,5 @@
 +++
-title = "Directories used by the IDE"
+title = "IDE使用的目录"
 weight = 10
 date = 2023-06-17T19:06:58+08:00
 type = "docs"
