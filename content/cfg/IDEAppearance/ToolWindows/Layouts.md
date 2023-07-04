@@ -10,7 +10,7 @@ draft = false
 +++
 # Layouts﻿ 布局
 
-https://www.jetbrains.com/help/go/tool-window-layouts.html#restore
+https://www.jetbrains.com/help/go/tool-window-layouts.html
 
 Last modified: 18 April 2023
 
@@ -45,7 +45,7 @@ Window | Layouts
 
   ![Switching to another layout](Layouts_img/ij-switch-layouts.png)
 
-- 使用快速切换器：按下Ctrl+`（View | Quick Switch Scheme），单击"Layout"，然后选择要应用的布局的名称。
+- 使用快速切换器：按下Ctrl+`（View | Quick Switch Scheme），单击Layout，然后选择要应用的布局的名称。
 
 
 
@@ -59,6 +59,6 @@ Window | Layouts
 
 ### 编辑布局
 
-- 从主菜单中选择Window | Layouts，指向所需布局，然后选择"重命名"或"删除"。
+- 从主菜单中选择Window | Layouts，指向所需布局，然后选择Rename 或Delete。
 
   您不能删除当前布局。

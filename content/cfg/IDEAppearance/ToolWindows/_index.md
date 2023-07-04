@@ -56,14 +56,14 @@ View | Tool Windows
 ### 隐藏或恢复所有工具窗口
 
 - 按下Ctrl+Shift+F12。
-- 双击要最大化的编辑器选项卡。只有在IDE设置（Ctrl+Alt+S）的"高级设置"页面上启用了使用双击编辑器选项卡执行'隐藏所有工具窗口'/'恢复窗口'选项时，此功能才可用。
+- 双击要最大化的编辑器选项卡。只有在IDE设置（Ctrl+Alt+S）的Advanced Settings页面上启用了使用双击编辑器选项卡 Perform 'Hide All Tool Windows' / 'Restore Windows' with double-click on editor tab 选项时，此功能才可用。
 - 从主菜单中选择Window | Active Tool Window | Hide All Windows/Restore Windows。
 
 ### 在编辑器和工具窗口之间导航 
 
 - 要从工具窗口切换焦点到编辑器中的上一个光标位置，请按Escape。
 - 如果在工具窗口中选择了一个代码项，例如搜索结果、[代码问题](https://www.jetbrains.com/help/go/problems-tool-window.html)或[书签](https://www.jetbrains.com/help/go/bookmarks.html)，请按F4打开对应的文件并在编辑器中定位该项。
-- 要从编辑器切换焦点回到上一个活动的工具窗口，请按F12或从主菜单中选择"窗口 | 当前工具窗口 | 跳转到上一个工具窗口"。
+- 要从编辑器切换焦点回到上一个活动的工具窗口，请按F12或从主菜单中选择Window | Active Tool Window | Jump to Last Tool Window。
 
 ## 工具窗口栏和按钮
 
@@ -74,7 +74,7 @@ View | Tool Windows
 ### 显示或隐藏工具窗口栏
 
 - 单击主窗口左下角的快速访问按钮![Icon for quick access to tool windows](index_img/app.general.tbHidden.svg)以隐藏工具窗口栏。按钮会变为![Icon for quick access to tool windows](index_img/app.general.tbShown.svg)，您可以单击它以显示工具窗口栏。
-- 或者，从主菜单中选择View | Appearance下的"工具窗口栏"选项。
+- 或者，从主菜单中选择View | Appearance下的 Tool Window Bars 选项。
 
 ​	当工具窗口栏被隐藏时，您可以双击并按住Alt键以显示隐藏的工具窗口栏。
 
@@ -97,7 +97,7 @@ View | Tool Windows
 
 ​	工具窗口工具栏上的操作通常也可以在主菜单和上下文菜单中使用。其中一些操作也可以使用默认快捷键执行。您可以根据[键盘快捷键](https://www.jetbrains.com/help/go/configuring-keyboard-and-mouse-shortcuts.html)中的说明为操作分配快捷键。
 
-​	对于显示树形结构的所有工具窗口（例如，项目工具窗口），您可以显示标记树视图中缩进级别的垂直线，以更好地了解项目中组件的层次结构。要显示这些线条，请在IDE设置（Ctrl+Alt+S）的"外观和行为 | 外观"页面上启用"显示树缩进指南"选项。
+​	对于显示树形结构的所有工具窗口（例如，项目工具窗口），您可以显示标记树视图中缩进级别的垂直线，以更好地了解项目中组件的层次结构。要显示这些线条，请在IDE设置（Ctrl+Alt+S）的 Appearance and Behavior | Appearance 页面上启用Show tree indent guides 选项。
 
 ​	您可以使用以下快捷键管理GoLand的工具窗口：
 

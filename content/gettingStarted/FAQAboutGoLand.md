@@ -66,10 +66,10 @@ Last modified: 16 January 2023
 
 |                                                              | GoLand                                                       | IntelliJ IDEA Ultimate                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Go 设置的位置                                                | 设置页面的顶级位置。![Location of Go settings](FAQAboutGoLand_img/go_location_of_go_settings_in_goland.png) | 位于“语言与框架”菜单项中。![Location of Go settings](FAQAboutGoLand_img/go_location_of_go_plugin_settings.png) |
+| Go 设置的位置                                                | 设置页面的顶级位置。![Location of Go settings](FAQAboutGoLand_img/go_location_of_go_settings_in_goland.png) | 位于语言与框架菜单项中。![Location of Go settings](FAQAboutGoLand_img/go_location_of_go_plugin_settings.png) |
 | Plugins 插件                                                 | 部分插件已经捆绑用于 Go 开发（例如，[Go Template 插件](https://plugins.jetbrains.com/plugin/10581-go-template)） | 某些用于 Go 开发的插件未捆绑，您需要手动安装它们             |
 | 某些插件在 GoLand 和 IntelliJ IDEA Ultimate 之间不兼容（例如，[GoLand 帮助插件](https://plugins.jetbrains.com/plugin/10490-goland-help)）。 |                                                              |                                                              |
-| Project management项目管理                                   | 若要附加一个文件夹，您需要导航到“文件打开”，然后单击“附加”。您可以在“项目结构”菜单中管理项目结构。有关使用项目结构的更多信息，请参见 [内容根](https://www.jetbrains.com/help/go/content-root.html)。 | 要附加一个文件夹，您需要将其添加为模块。有关 IntelliJ IDEA Ultimate 中模块的更多信息，请参见 [IntelliJ IDEA 文档中的模块主题](https://www.jetbrains.com/help/idea/creating-and-managing-modules.html)。 |
+| Project management项目管理                                   | 若要附加一个文件夹，您需要导航到文件打开，然后单击附加。您可以在项目结构菜单中管理项目结构。有关使用项目结构的更多信息，请参见 [内容根](https://www.jetbrains.com/help/go/content-root.html)。 | 要附加一个文件夹，您需要将其添加为模块。有关 IntelliJ IDEA Ultimate 中模块的更多信息，请参见 [IntelliJ IDEA 文档中的模块主题](https://www.jetbrains.com/help/idea/creating-and-managing-modules.html)。 |
 | Go SDK 的预构建索引位置                                      | 随 GoLand 一起提供                                           | 不随附                                                       |
 | IML 文件的位置                                               | GoLand 将所有设置文件存储在 **.idea** 目录中。               | 在 IntelliJ IDEA 中创建 Go 项目时，您可以指定 **.iml** 文件的目录。默认情况下，它是项目的根目录。有关更改 **.iml** 文件目录的详细信息，请参见 [更改 IntelliJ IDEA 中 Go 项目的 IML 文件位置](https://www.jetbrains.com/help/go/creating-and-managing-projects.html#change-the-iml-file-location-for-go-projects-in-intellij-idea)。 |
 
@@ -87,8 +87,8 @@ Last modified: 16 January 2023
 
 #### 有用的链接﻿
 
-- [GoLand 的 YouTrack 问题](https://youtrack.jetbrains.com/issues/GO)：登录 JetBrains 帐户，然后单击“New issue”。
-- [JetBrains 支持中心的请求](https://intellij-support.jetbrains.com/hc/en-us)：单击主页顶部的“提交请求”按钮。
+- [GoLand 的 YouTrack 问题](https://youtrack.jetbrains.com/issues/GO)：登录 JetBrains 帐户，然后单击New issue。
+- [JetBrains 支持中心的请求](https://intellij-support.jetbrains.com/hc/en-us)：单击主页顶部的提交请求按钮。
 - [Twitter](https://twitter.com/)：在推特上向我们提问。在推文中提及 @GoLandIDE。
 - [goland-support@jetbrains.com](mailto:goland-support@jetbrains.com)：通过电子邮件向我们的团队提问。描述您的问题，并附上可加快故障排除的所有可用材料（代码示例、截图、日志、动画、视频和其他材料）。
 
@@ -149,7 +149,7 @@ Last modified: 16 January 2023
 
 ### 如何为`go build`和`go test`命令提供s实参？
 
-​	导航至“Run | Edit Configurations”，单击用于运行应用程序或运行测试的运行/调试配置。在“Go tool arguments”字段中，输入以空格分隔的参数列表，用于指定要与`go build`或`go test`一起使用的参数。
+​	导航至Run | Edit Configurations，单击用于运行应用程序或运行测试的运行/调试配置。在Go tool arguments字段中，输入以空格分隔的参数列表，用于指定要与`go build`或`go test`一起使用的参数。
 
 ​	如果需要设置构建约束，请按下Ctrl+Alt+S打开设置，然后导航到Go | Build Tags & Vendoring。有关可能的构建约束的更多信息，请参阅golang.org上的[Build Constraints](https://golang.org/pkg/go/build/#hdr-Build_Constraints)。
 
@@ -161,7 +161,7 @@ Last modified: 16 January 2023
 
 ### 如何添加像`-race`、`-failfast`、`-short`等测试标志？ 
 
-​	导航至“Run | Edit Configurations”，单击用于运行应用程序或运行测试的运行/调试配置。在“Go tool arguments”字段中，指定要使用的标志： 
+​	导航至Run | Edit Configurations，单击用于运行应用程序或运行测试的运行/调试配置。在Go tool arguments字段中，指定要使用的标志： 
 
 - `-race`：启用数据竞争检测。仅支持`linux/amd64`、`freebsd/amd64`、`darwin/amd64`、`windows/amd64`、`linux/ppc64le`和`linux/arm64`（仅适用于48位VMA）。
 - `-test.failfast`：在第一个测试失败后停止运行新的测试。
@@ -174,7 +174,7 @@ Last modified: 16 January 2023
 
 ### 如何更改编译二进制文件的名称？
 
-​	导航至“Run | Edit Configurations”，单击用于运行应用程序或运行测试的运行/调试配置。在“Go tool arguments”字段中，指定`-o customExecutableName`。
+​	导航至Run | Edit Configurations，单击用于运行应用程序或运行测试的运行/调试配置。在Go tool arguments字段中，指定`-o customExecutableName`。
 
 ![change the name of a compiled binary](FAQAboutGoLand_img/go_change_the_name_of_a_compiled_binary.png)
 
@@ -182,7 +182,7 @@ Last modified: 16 January 2023
 
 ### 如何在GoLand中打开VSCode项目？ 
 
-​	导航至“File | Open”，选择要添加的文件夹，然后单击“Open”。
+​	导航至File | Open，选择要添加的文件夹，然后单击Open。
 
 ### 工作区和项目之间有什么区别？
 
@@ -201,7 +201,7 @@ Last modified: 16 January 2023
 
 ​	您可以添加任意数量的目录作为内容根。要添加内容根，请按下Ctrl+Alt+S打开设置，然后导航到Project structure | Add Content Root。
 
-​	另一种方法是单击“File | Open”，选择要添加的项目文件夹，然后单击“Open”。在弹出窗口中，选择“Attach”。
+​	另一种方法是单击File | Open，选择要添加的项目文件夹，然后单击Open。在弹出窗口中，选择Attach。
 
 #### 有用的链接
 
@@ -212,7 +212,7 @@ Last modified: 16 January 2023
 
 ​	您可以从官方存储库下载Go SDK，或者导航到本地副本。
 
-​	按下Ctrl+Alt+S打开设置，然后导航到Go | GOROOT。单击“Add”按钮。要导航到本地Go SDK副本，请选择“Local”。要下载Go SDK，请单击“Download”。
+​	按下Ctrl+Alt+S打开设置，然后导航到Go | GOROOT。单击Add按钮。要导航到本地Go SDK副本，请选择Local。要下载Go SDK，请单击Download。
 
 #### 有用的链接
 
@@ -220,7 +220,7 @@ Last modified: 16 January 2023
 
 ### 如何更改项目的GOPATH变量？
 
-​	按下Ctrl+Alt+S打开设置，然后导航到Go | GOPATH。根据要应用的范围，选择相应的部分（Global GOPATH、Project GOPATH、Module GOPATH），然后单击“Add”按钮![the Add button](FAQAboutGoLand_img/app.general.add.svg)。导航到要关联到GOPATH的目录。
+​	按下Ctrl+Alt+S打开设置，然后导航到Go | GOPATH。根据要应用的范围，选择相应的部分（Global GOPATH、Project GOPATH、Module GOPATH），然后单击Add按钮![the Add button](FAQAboutGoLand_img/app.general.add.svg)。导航到要关联到GOPATH的目录。
 
 ​	您可以为以下范围配置GOPATH：全局、项目和模块。如果指定了所有三个范围，GoLand首先选择最狭窄的范围。
 
@@ -232,8 +232,8 @@ Last modified: 16 January 2023
 
 ​	要运行或调试应用程序，可以使用以下方法：
 
-- 在编辑器的左侧沟槽中，单击“Run application”图标![the Run Application icon](FAQAboutGoLand_img/app.actions.execute_dark.svg) 然后选择“Run <method_name> in <file_name>”或“Debug <method_name> in <file_name>”。
-- 右键单击编辑器中打开的文件或方法，然后选择“Run <method_name> in <file_name>”（Ctrl+Shift+F10）或“Debug <method_name> in <file_name>”（Shift+F9）。
+- 在编辑器的左侧沟槽中，单击Run application图标![the Run Application icon](FAQAboutGoLand_img/app.actions.execute_dark.svg) 然后选择Run <method_name> in <file_name>或Debug <method_name> in <file_name>。
+- 右键单击编辑器中打开的文件或方法，然后选择Run <method_name> in <file_name>（Ctrl+Shift+F10）或Debug <method_name> in <file_name>（Shift+F9）。
 - 创建运行/调试配置。有关运行/调试配置的更多信息，请参阅[创建运行/调试配置](https://www.jetbrains.com/help/go/run-debug-configuration.html#createExplicitly)。
 
 #### 有用的链接
@@ -244,9 +244,9 @@ Last modified: 16 January 2023
 
 ### 如何在同一个窗口中查看项目的依赖项？
 
-​	您可以创建一个包含项目中所有依赖项的图表。右键单击项目中的**go.mod**文件，然后选择“Diagrams | Show Diagram”。
+​	您可以创建一个包含项目中所有依赖项的图表。右键单击项目中的**go.mod**文件，然后选择Diagrams | Show Diagram。
 
-​	要确保在项目中启用了Go模块，请按下Ctrl+Alt+S打开设置，然后导航到Go | Go modules。确保选中“Enable Go modules integration”复选框。
+​	要确保在项目中启用了Go模块，请按下Ctrl+Alt+S打开设置，然后导航到Go | Go modules。确保选中Enable Go modules integration复选框。
 
 #### 有用的链接
 
@@ -254,13 +254,13 @@ Last modified: 16 January 2023
 
 ### 如何关闭项目？
 
-​	点击“File | Close Project”。
+​	点击File | Close Project。
 
 ### 如何开始使用版本控制系统（VCS）集成？
 
 ​	VCS集成会自动启用。
 
-​	要手动启用VCS集成，请单击“VCS | Enable Version Control Integration”。在“Enable Version Control Integration”对话框中，选择要使用的VCS，然后单击“OK”。
+​	要手动启用VCS集成，请单击VCS | Enable Version Control Integration。在Enable Version Control Integration对话框中，选择要使用的VCS，然后单击OK。
 
 #### 有用的链接
 
@@ -275,7 +275,7 @@ Last modified: 16 January 2023
 ​	要安装VS Code Keymap插件，可以使用以下方法之一： 
 
 - 您可以通过以下链接从plugins.jetbrains.com下载插件：https://plugins.jetbrains.com/plugin/12062-vs-code-keymap/。
-- 按下Ctrl+Alt+S打开设置，然后导航到Plugins。在搜索框中，键入“VS Code Keymap”。找到JetBrains的VS Code Keymap，然后点击“Install”。
+- 按下Ctrl+Alt+S打开设置，然后导航到Plugins。在搜索框中，键入VS Code Keymap。找到JetBrains的VS Code Keymap，然后点击Install。
 
 ### 如何在鼠标悬停时查看文档？
 

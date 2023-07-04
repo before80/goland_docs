@@ -1,3 +1,12 @@
++++
+title = "Install GoLand"
+weight = 40
+date = 2023-06-14T17:20:58+08:00
+type = "docs"
+description = ""
+isCJKLanguage = true
+draft = false
++++
 # Install GoLand﻿
 
 https://www.jetbrains.com/help/go/installation-guide.html#snap
@@ -64,7 +73,7 @@ Install GoLand manually to manage the location of every instance and all the con
 
 
 
-Windows
+xxxxxxxxxx1 1sudo snap refresh golandbash
 
 macOS
 

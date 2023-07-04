@@ -145,7 +145,7 @@ GoLand | Settings | Build, Execution, Deployment | Deployment for macOS
 
 4. 在Deployment Path字段中，指定GoLand将从Local Path字段指定的文件夹上传数据到服务器上的文件夹。输入相对于服务器配置根目录的文件夹路径。
 
-   如果指定名称的文件夹尚不存在，只要您在[选项对话框](https://www.jetbrains.com/help/go/settings-deployment-options.html)中选中了"创建空文件夹"复选框，GoLand将创建该文件夹。
+   如果指定名称的文件夹尚不存在，只要您在[选项对话框](https://www.jetbrains.com/help/go/settings-deployment-options.html)中选中了Create Empty directories复选框，GoLand将创建该文件夹。
 
    
 

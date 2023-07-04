@@ -103,10 +103,10 @@ Most of these actions can also be performed from the main menu at the top of the
 
 ​	弹出菜单提供了与当前上下文相关的快速访问操作。以下是一些有用的弹出菜单及其快捷方式： 
 
-- Alt+Insert打开“Generate”弹出菜单，用于根据上下文生成样板代码。
-- Ctrl+Alt+Shift+T打开“Refactor This”弹出菜单，其中列出了上下文中可用的[重构](https://www.jetbrains.com/help/go/refactoring-source-code.html)。
-- 在[项目工具窗口](https://www.jetbrains.com/help/go/project-tool-window.html)中按Alt+Insert打开“New”弹出菜单，用于向项目添加新文件和目录。
-- Alt+`打开“VCS Operations”弹出菜单，其中列出了与你的[版本控制系统](https://www.jetbrains.com/help/go/version-control-integration.html)相关的可用操作。
+- Alt+Insert打开Generate弹出菜单，用于根据上下文生成样板代码。
+- Ctrl+Alt+Shift+T打开Refactor This弹出菜单，其中列出了上下文中可用的[重构](https://www.jetbrains.com/help/go/refactoring-source-code.html)。
+- 在[项目工具窗口](https://www.jetbrains.com/help/go/project-tool-window.html)中按Alt+Insert打开New弹出菜单，用于向项目添加新文件和目录。
+- Alt+`打开VCS Operations弹出菜单，其中列出了与你的[版本控制系统](https://www.jetbrains.com/help/go/version-control-integration.html)相关的可用操作。
 
 ​	你可以使用[快速列表](https://www.jetbrains.com/help/go/customize-actions-menus-and-toolbars.html#configure_quick_lists)创建自定义弹出菜单，其中包含你经常使用的操作。
 

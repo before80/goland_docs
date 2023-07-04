@@ -6,6 +6,7 @@ type = "docs"
 description = ""
 isCJKLanguage = true
 draft = false
+
 +++
 # Arrange tool windows - 整理工具窗口﻿
 
@@ -21,7 +22,7 @@ Last modified: 18 April 2023
 
 1. 单击并拖动[工具窗口栏](https://www.jetbrains.com/help/go/tool-windows.html#bars_and_buttons)上的工具窗口按钮。
 
-3. 或者，您可以单击工具窗口的选项菜单![The tool window options menu](ArrangeToolWindows_img/app.general.gearPlain.svg)，或右键单击[工具窗口标题栏](https://www.jetbrains.com/help/go/tool-windows.html#general-tool-windows-layout)，然后在“移动到”下选择要附加工具窗口的位置。
+3. 或者，您可以单击工具窗口的选项菜单![The tool window options menu](ArrangeToolWindows_img/app.general.gearPlain.svg)，或右键单击[工具窗口标题栏](https://www.jetbrains.com/help/go/tool-windows.html#general-tool-windows-layout)，然后在 Move to 下选择要附加工具窗口的位置。
 
    ![Tool window options menu: Move to](ArrangeToolWindows_img/go_tool_window_move_to.png)
 
@@ -32,20 +33,24 @@ Last modified: 18 April 2023
 ### 调整工具窗口的大小
 
 - 单击并拖动工具窗口的边框。
-- 要调整活动工具窗口的大小，按Ctrl+Alt+Shift+Left，Ctrl+Alt+Shift+Right，Ctrl+Alt+Shift+Up，Ctrl+Alt+Shift+Down或使用主菜单中的"窗口 | 活动工具窗口 | 调整大小"。
-- 要将工具窗口拉伸到最大宽度或高度，按Ctrl+Shift+Quote或从主菜单中选择"窗口 | 活动工具窗口 | 调整大小 | 最大化工具窗口"。
+
+- 要调整活动工具窗口的大小，按Ctrl+Alt+Shift+Left，Ctrl+Alt+Shift+Right，Ctrl+Alt+Shift+Up，Ctrl+Alt+Shift+Down或使用主菜单中的 Window | Active Tool Window | Resize。
+
+- 要将工具窗口拉伸到最大宽度或高度，按Ctrl+Shift+Quote或从主菜单中选择Window | Active Tool Window | Resize | Maximize Tool Window。
+
+
 
 ### 保存自定义工具窗口大小
 
 ​	如果您更喜欢单独调整每个工具窗口的大小，可以配置IDE以记住您的自定义布局。
 
-4. 按Ctrl+Alt+S打开IDE设置，选择Appearance & Behaviour | Appearance。
+- 按Ctrl+Alt+S打开IDE设置，选择Appearance & Behaviour | Appearance。
 
-5. 在工具窗口部分，选择"为每个工具窗口记住大小"选项。
+- 在工具窗口部分，选择 Remember size for each tool window 选项。
 
-   当禁用此选项时，工具窗口具有统一的默认宽度，并且在切换工具窗口时它们的大小保持不变。
+  当禁用此选项时，工具窗口具有统一的默认宽度，并且在切换工具窗口时它们的大小保持不变。
 
-6. 应用更改并关闭对话框。
+- 应用更改并关闭对话框。
 
 ## 优化宽屏显示器
 

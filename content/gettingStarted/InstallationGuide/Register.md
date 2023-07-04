@@ -1,3 +1,12 @@
++++
+title = "Register GoLand"
+weight = 20
+date = 2023-06-14T17:20:58+08:00
+type = "docs"
+description = ""
+isCJKLanguage = true
+draft = false
++++
 # Register GoLand﻿
 
 https://www.jetbrains.com/help/go/register.html#jb_access_troubleshooting

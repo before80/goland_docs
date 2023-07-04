@@ -7,44 +7,46 @@ description = ""
 isCJKLanguage = true
 draft = false
 +++
-# Keyboard Shortcuts: macOS Keymap﻿
+# Keyboard Shortcuts: macOS Keymap﻿ - 键盘快捷键：macOS 键盘映射
 
 https://www.jetbrains.com/help/go/reference-keymap-mac-default.html#tool_windows
 
 Last modified: 11 January 2023
 
-> You can find all shortcuts and modify them in Settings | Keymap.
+最后修改日期：2023年1月11日
 
-## GoLand's top keyboard shortcuts﻿
+> ​	您可以在Settings | Keymap中找到所有快捷键并对其进行修改。
+
+## GoLand的顶级键盘快捷键
 
 |                                                              |          |
 | ------------------------------------------------------------ | -------- |
-| [Search Everywhere](https://www.jetbrains.com/help/go/searching-everywhere.html) | Double ⇧ |
-| [Find Action...](https://www.jetbrains.com/help/go/searching-everywhere.html#search_actions) | ⌘ ⇧ A    |
-| [Show Project window](https://www.jetbrains.com/help/go/project-tool-window.html) | ⌘ 1      |
-| Rebuild                                                      | ⌘ ⇧ F9   |
-| [Show Intention Actions](https://www.jetbrains.com/help/go/intention-actions.html#apply-intention-actions) | ⌥ ⏎      |
-| [Recent Files](https://www.jetbrains.com/help/go/navigating-through-the-source-code.html#recent_files) | ⌘ E      |
-| [Find Usages](https://www.jetbrains.com/help/go/find-highlight-usages.html#find-usages) | ⌥ F7     |
-| [Select In...](https://www.jetbrains.com/help/go/navigating-through-the-source-code.html#navigate_in_project_view) | ⌥ F1     |
-| [Settings...](https://www.jetbrains.com/help/go/configure-project-settings.html) | ⌘ Comma  |
-| [Generate...](https://www.jetbrains.com/help/go/generating-code.html) | ⌘ N      |
-| [Run Anything](https://www.jetbrains.com/help/go/running-applications.html) | Double ^ |
-| [Debug...](https://www.jetbrains.com/help/go/starting-the-debugger-session.html) | ^ ⌥ D    |
-| [View Breakpoints...](https://www.jetbrains.com/help/go/using-breakpoints.html) | ⌘ ⇧ F8   |
-| Attach to Process...                                         | ⌥ ⇧ F5   |
-| [VCS Operations Popup...](https://www.jetbrains.com/help/go/version-control-integration.html) | ^ V      |
-| [Refactor This...](https://www.jetbrains.com/help/go/refactoring-source-code.html) | ^ T      |
-| [Reformat Code](https://www.jetbrains.com/help/go/reformat-and-rearrange-code.html) | ⌘ ⌥ L    |
+| [搜索所有位置 - Search Everywhere](https://www.jetbrains.com/help/go/searching-everywhere.html) | Double ⇧ |
+| [查找操作 - Find Action...](https://www.jetbrains.com/help/go/searching-everywhere.html#search_actions) | ⌘ ⇧ A    |
+| [显示项目窗口 - Show Project window](https://www.jetbrains.com/help/go/project-tool-window.html) | ⌘ 1      |
+| 重构 - Rebuild                                               | ⌘ ⇧ F9   |
+| [显示意图操作 - Show Intention Actions](https://www.jetbrains.com/help/go/intention-actions.html#apply-intention-actions) | ⌥ ⏎      |
+| [最近的文件 - Recent Files](https://www.jetbrains.com/help/go/navigating-through-the-source-code.html#recent_files) | ⌘ E      |
+| [查找用法 - Find Usages](https://www.jetbrains.com/help/go/find-highlight-usages.html#find-usages) | ⌥ F7     |
+| [在...中选择 - Select In...](https://www.jetbrains.com/help/go/navigating-through-the-source-code.html#navigate_in_project_view) | ⌥ F1     |
+| [设置 - Settings...](https://www.jetbrains.com/help/go/configure-project-settings.html) | ⌘ Comma  |
+| [生成 - Generate...](https://www.jetbrains.com/help/go/generating-code.html) | ⌘ N      |
+| [运行任何内容 - Run Anything](https://www.jetbrains.com/help/go/running-applications.html) | Double ^ |
+| [调试 - Debug...](https://www.jetbrains.com/help/go/starting-the-debugger-session.html) | ^ ⌥ D    |
+| [查看断点 - View Breakpoints...](https://www.jetbrains.com/help/go/using-breakpoints.html) | ⌘ ⇧ F8   |
+| 附加到进程 - Attach to Process...                            | ⌥ ⇧ F5   |
+| [版本控制操作弹出窗口 - VCS Operations Popup...](https://www.jetbrains.com/help/go/version-control-integration.html) | ^ V      |
+| [重构此处 - Refactor This...](https://www.jetbrains.com/help/go/refactoring-source-code.html) | ^ T      |
+| [重新格式化代码 - Reformat Code](https://www.jetbrains.com/help/go/reformat-and-rearrange-code.html) | ⌘ ⌥ L    |
 
-## Build projects﻿
+## 构建项目
 
-|               |        |
-| ------------- | ------ |
-| Build Project | ⌘ F9   |
-| Rebuild       | ⌘ ⇧ F9 |
+|                          |        |
+| ------------------------ | ------ |
+| 构建项目 - Build Project | ⌘ F9   |
+| 重构 - Rebuild           | ⌘ ⇧ F9 |
 
-## Basic editing﻿
+## 基本编辑
 
 |                                                              |         |
 | ------------------------------------------------------------ | ------- |

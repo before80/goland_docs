@@ -23,7 +23,7 @@ Window | Active Tool Window | View Mode
 
 - 从主菜单中选择Window | Active Tool Window | View Mode，然后选择视图模式。
 
-- 或者，在工具窗口的[标题栏](https://www.jetbrains.com/help/go/tool-windows.html#general-tool-windows-layout)上，单击![the Show Options Menu button](ToolWindowViewModes_img/app.general.gearPlain.svg)，选择"视图模式"，然后选择视图模式。
+- 或者，在工具窗口的[标题栏](https://www.jetbrains.com/help/go/tool-windows.html#general-tool-windows-layout)上，单击![the Show Options Menu button](ToolWindowViewModes_img/app.general.gearPlain.svg)，选择View Mode，然后选择视图模式。
 
   ![Tool window view mode](ToolWindowViewModes_img/go_tool_window_viewing_modes.png)
 
@@ -84,5 +84,4 @@ Window | Active Tool Window | View Mode
   
 
   
-
 

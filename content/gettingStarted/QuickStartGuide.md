@@ -10,7 +10,7 @@ draft = false
 +++
 # Quick start guide﻿ - 快速入门指南
 
-https://www.jetbrains.com/help/go/quick-start-guide-goland.html#debug
+https://www.jetbrains.com/help/go/quick-start-guide-goland.html
 
 Last modified: 21 April 2023
 
@@ -30,37 +30,37 @@ Last modified: 21 April 2023
 
 ### 打开现有项目
 
-1. 在欢迎对话框中，点击"打开"。
+1. 在欢迎对话框中，点击Open。
 
-   或者，点击"文件" | "打开"。
+   或者，点击File | Open。
 
-5. 在文件浏览器中，导航到包含项目文件的文件夹，然后点击"打开..."。
+5. 在文件浏览器中，导航到包含项目文件的文件夹，然后点击Open…。
 
-6. 点击"确定"。
+6. 点击OK。
 
    ![Welcome screen](QuickStartGuide_img/go_QST_WelcomeScreen.png)
 
 ### 从版本控制系统中克隆现有项目
 
-1. 在欢迎对话框中，点击"从版本控制获取"。
+1. 在欢迎对话框中，点击Get from Version Control。
 
 2. 从版本控制列表中，选择Git或Mercurial：
 
    
 
-   - 要从GitHub检出文件，请选择GitHub，然后点击"通过GitHub登录"。您将被重定向到 [account.jetbrains.com](https://account.jetbrains.com/)，需要点击GitHub上的"授权"。输入您的GitHub凭据，并授权访问您的GitHub帐户。
+   - 要从GitHub检出文件，请选择GitHub，然后点击Log In via GitHub…。您将被重定向到 [account.jetbrains.com](https://account.jetbrains.com/)，需要点击Authorize in GitHub。输入您的GitHub凭据，并授权访问您的GitHub帐户。
 
      ![Authorize in GitHub](QuickStartGuide_img/go_authorize_via_github.png)
 
    - 要从Mercurial检出文件，[安装和配置Mercurial](https://www.jetbrains.com/help/go/using-mercurial-integration.html)，然后重新启动GoLand。输入源代码的路径，将存储库克隆到您的计算机上。
 
 
-   
 
-3. 打开项目后，您需要指定Go SDK的位置。您可以指定本地SDK路径或下载SDK。要设置Go SDK，打开设置 Ctrl+Alt+S，并导航到Go | GOROOT。点击"Add SDK"按钮，然后在两个选项中选择之一：
 
-   - 添加SDK...：使用本地SDK副本。在文件浏览器中，导航到您硬盘上的SDK版本。
-   - 下载...：下载SDK。在"位置"字段中，指定SDK的路径。要使用文件浏览器，请点击"浏览"图标 ![the Browse icon](QuickStartGuide_img/app.actions.menu-open_dark.svg)。点击"确定"。
+3. 打开项目后，您需要指定Go SDK的位置。您可以指定本地SDK路径或下载SDK。要设置Go SDK，打开设置 Ctrl+Alt+S，并导航到Go | GOROOT。点击`AddSDK({0})` 按钮，然后在两个选项中选择之一：
+
+   - Add SDK…：使用本地SDK副本。在文件浏览器中，导航到您硬盘上的SDK版本。
+   - Download…：下载SDK。在Location 字段中，指定SDK的路径。要使用文件浏览器，请点击Browse 图标 ![the Browse icon](QuickStartGuide_img/app.actions.menu-open_dark.svg)。点击OK。
 
    有关版本控制系统的更多信息，请参阅[版本控制](https://www.jetbrains.com/help/go/version-control-integration.html)。
 
@@ -95,9 +95,9 @@ Last modified: 21 April 2023
 
 1. 新建项目中没有Go文件。要创建Go文件，请执行以下操作之一：
 
-   - 在项目的父文件夹上右键单击，然后选择新建 | Go文件。
-   - 单击项目的父文件夹，按下Alt+Insert，然后选择Go文件。
-   - 单击项目的父文件夹，导航到文件 | 新建 | Go文件。
+   - 在项目的父文件夹上右键单击，然后选择New | Go File。
+   - 单击项目的父文件夹，按下Alt+Insert，然后选择Go File。
+   - 单击项目的父文件夹，导航到File | New | Go File。
 
    
 
@@ -108,7 +108,7 @@ Last modified: 21 April 2023
 
 ## 步骤2. 探索用户界面
 
-​	当您首次启动GoLand时，会看到"欢迎使用GoLand"对话框。从该对话框中，您可以创建和打开项目、从版本控制系统中检出项目、查看文档并配置IDE。
+​	当您首次启动GoLand时，会看到Welcome to GoLand对话框。从该对话框中，您可以创建和打开项目、从版本控制系统中检出项目、查看文档并配置IDE。
 
 ​	打开项目后，您会看到主窗口分为几个逻辑区域。
 
@@ -163,9 +163,9 @@ Last modified: 21 April 2023
 
 ​	GoLand提供多种方式生成常见的代码结构和重复元素，以帮助您提高生产力。这些可以是在创建新文件时使用的[文件模板](https://www.jetbrains.com/help/go/using-file-and-code-templates.html)，根据上下文应用不同的自定义或预定义[Live templates](https://www.jetbrains.com/help/go/using-live-templates.html)，各种包装器或字符的自动配对。
 
-​	从主菜单中选择"Code | Generate Alt+Insert"以打开可生成的构造的弹出菜单。 
+​	从主菜单中选择Code | Generate Alt+Insert以打开可生成的构造的弹出菜单。 
 
-- 您可以生成getter、setter、构造函数、缺失的方法和测试文件。有关"Generate"操作的更多信息，请参阅[使用"Generate"操作](https://www.jetbrains.com/help/go/using-the-generate-action.html)。
+- 您可以生成getter、setter、构造函数、缺失的方法和测试文件。有关Generate操作的更多信息，请参阅[使用Generate操作](https://www.jetbrains.com/help/go/using-the-generate-action.html)。
 
   ![06151914](QuickStartGuide_img/06151914.gif)
 
@@ -197,7 +197,7 @@ Last modified: 21 April 2023
 
 - 要查看检查列表，请打开设置Ctrl+Alt+S并导航到Editor | Inspections。禁用其中一些检查，或启用其他检查，并调整每个检查的严重级别。您可以决定是否将其视为错误或警告。
 
-  例如，"Unreachable code"检查检测到无法执行的代码片段。
+  例如，Unreachable code 检查检测到无法执行的代码片段。
 
   ![The unreachable code inspection](QuickStartGuide_img/go_unreachable_code.png)
 

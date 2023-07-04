@@ -1,3 +1,12 @@
++++
+title = "Update GoLand"
+weight = 30
+date = 2023-06-14T17:20:58+08:00
+type = "docs"
+description = ""
+isCJKLanguage = true
+draft = false
++++
 # Update GoLand﻿
 
 https://www.jetbrains.com/help/go/update.html

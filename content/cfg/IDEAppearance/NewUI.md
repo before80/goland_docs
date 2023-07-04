@@ -9,7 +9,7 @@ draft = false
 +++
 # New UI﻿ - 新用户界面
 
-https://www.jetbrains.com/help/go/new-ui.html#compact-mode
+https://www.jetbrains.com/help/go/new-ui.html
 
 Last modified: 24 April 2023
 
@@ -23,8 +23,8 @@ Last modified: 24 April 2023
 
 ### 启用新的用户界面
 
-1. 按下Ctrl+Alt+S打开IDE设置，选择"Appearance&Behavior | New UI"。
-4. 选择"Enable new UI"复选框并应用更改。重新启动IDE。
+1. 按下Ctrl+Alt+S打开IDE设置，选择Appearance&Behavior | New UI。
+4. 选择Enable new UI复选框并应用更改。重新启动IDE。
 
 ## 主要变化
 
@@ -62,7 +62,7 @@ Last modified: 24 April 2023
 
    主菜单现在位于汉堡菜单图标下方。您可以使用Alt+\快捷键打开它。
 
-   您可以恢复完整菜单：转到"Settings | Appearance & Behavior | New UI"，启用"Show main menu in separate toolbar"选项。
+   您可以恢复完整菜单：转到Settings | Appearance & Behavior | New UI，启用Show main menu in separate toolbar选项。
 
 2. 项目小部件
 
@@ -115,7 +115,7 @@ Last modified: 24 April 2023
 
   
 
-- "More tool windows"按钮显示尚未出现在任何工具窗口条上的工具窗口。当选择工具窗口时，它会打开，并在该工具窗口的默认条上显示其按钮。
+- More tool windows按钮显示尚未出现在任何工具窗口条上的工具窗口。当选择工具窗口时，它会打开，并在该工具窗口的默认条上显示其按钮。
 
   > ​	拖动工具窗口图标或使用上下文菜单将其移动到IDE窗口的其他位置。
 
@@ -128,8 +128,8 @@ Last modified: 24 April 2023
 ### 编辑器选项卡
 
 - 选项卡使用更多空间和更大的字体以提高可读性。
-- 现在更方便地处理多个编辑器选项卡：如果选项卡无法适应屏幕，您可以选择使用滚动条或将选项卡挤压以将它们全部放在屏幕上。转到"Settings | Editor | General | Editor Tabs | Show tabs in"并选择所需的选项。
-- 编辑器选项卡的[文件颜色](https://www.jetbrains.com/help/go/configuring-scopes-and-file-colors.html#associate-file-color-with-a-scope)暂时关闭，因为我们正在改进文件颜色的呈现方式。如果需要，您可以在"Settings | Appearance & Behavior | File Colors | Use in editor tabs"中恢复以前的文件颜色设置。
+- 现在更方便地处理多个编辑器选项卡：如果选项卡无法适应屏幕，您可以选择使用滚动条或将选项卡挤压以将它们全部放在屏幕上。转到Settings | Editor | General | Editor Tabs | Show tabs in并选择所需的选项。
+- 编辑器选项卡的[文件颜色](https://www.jetbrains.com/help/go/configuring-scopes-and-file-colors.html#associate-file-color-with-a-scope)暂时关闭，因为我们正在改进文件颜色的呈现方式。如果需要，您可以在Settings | Appearance & Behavior | File Colors | Use in editor tabs中恢复以前的文件颜色设置。
 
 ![Editor tabs](NewUI_img/go_new_ui_editor_tabs.png)
 
@@ -137,7 +137,7 @@ Last modified: 24 April 2023
 
 - 默认情况下，断点现在放置在行号上，以节省水平空间。
 
-  您可以将断点放置在行号附近：按下Ctrl+Shift+A，输入"Breakpoints Over Line Numbers"，然后禁用该选项。
+  您可以将断点放置在行号附近：按下Ctrl+Shift+A，输入Breakpoints Over Line Numbers，然后禁用该选项。
 
   ![Breakpoints](NewUI_img/go_new_ui_breakpoints.png)
 
@@ -176,7 +176,7 @@ Tabs for switching between the Threads & Variables view and Console now also app
 
 ![Navigation bar in the new UI](NewUI_img/go_new_ui_navigation_bar.png)
 
-​	如果您更喜欢以前的位置，您可以将其移回顶部，甚至完全关闭它。要这样做，请转到主菜单，选择"View | Appearance | Navigation Bar"。
+​	如果您更喜欢以前的位置，您可以将其移回顶部，甚至完全关闭它。要这样做，请转到主菜单，选择View | Appearance | Navigation Bar。
 
 ### 紧凑模式
 
@@ -184,8 +184,8 @@ Tabs for switching between the Threads & Variables view and Console now also app
 
 ### 启用紧凑模式
 
-- 从主菜单中，选择"View | Appearance | Compact Mode"。
-- 按下Ctrl+Alt+S打开IDE设置，选择"Appearance and Behaviour | New UI"，并启用"Compact mode"选项。
+- 从主菜单中，选择View | Appearance | Compact Mode。
+- 按下Ctrl+Alt+S打开IDE设置，选择Appearance and Behaviour | New UI，并启用Compact mode选项。
 
 
 

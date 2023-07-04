@@ -1,3 +1,12 @@
++++
+title = "Run GoLand for the first time"
+weight = 10
+date = 2023-06-14T17:20:58+08:00
+type = "docs"
+description = ""
+isCJKLanguage = true
+draft = false
++++
 # Run GoLand for the first time﻿
 
 https://www.jetbrains.com/help/go/run-for-the-first-time.html#start-project

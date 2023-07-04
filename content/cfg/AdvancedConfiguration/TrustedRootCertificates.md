@@ -97,7 +97,7 @@ Last modified: 08 March 2023
 
   日志文件名为**idea.log**，并根据文件大小进行轮转。在附加日志到问题报告时，建议您将最新的几个日志文件（`idea.log`、`idea.log.1`、`idea.log.2`、`idea.log.3`）进行压缩（.zip）并发送。
 
-  您还可以使用Collect Logs and Diagnostic Data选项生成包含所有日志文件（包括构建日志和自动线程转储）的**.zip**文件。
+  您还可以使用Collect Logs and Diagnostic Data选项生成包含所有日志文件（包括构建日志和自动线程转储）的`.zip` 文件。
 
 
 ## 证书手动安装
